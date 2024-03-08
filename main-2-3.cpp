@@ -1,7 +1,6 @@
 #include <iostream>
 
 extern int sum_if_palindrome(int integers[], int length);
-extern bool is_paldindrome(int integers[], int length);
 
 int main(){
     int arr_1[8] = {1, 2,3,4,5,6,7,8};
