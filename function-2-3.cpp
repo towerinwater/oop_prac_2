@@ -18,6 +18,10 @@ bool is_paldindrome(int integers[], int length){
 }
 
 int sum_array_elements(int integers[], int length){
+    if(length < 1){
+        return -1;
+    }
+
     if(is_paldindrome(integers, length)){
         int sum = 0;
         for(int i = 0; i < length; i++){
@@ -30,5 +34,9 @@ int sum_array_elements(int integers[], int length){
     }
 }
 int sum_if_palindrome(int integers[], int length){
+    if(length < 1){
+        return -1;
+    }
+
     return sum_array_elements(integers, length);
 }

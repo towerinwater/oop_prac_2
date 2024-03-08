@@ -17,6 +17,7 @@ void count_digits(int array[4][4]){
                 break;
             case 3:
                 count[3]++;
+                break;
             case 4:
                 count[4]++;
                 break;
